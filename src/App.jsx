@@ -1,15 +1,15 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Navbar from './components/navbar.jsx'; // Adjust the path as necessary
 import Home from './components/Home.jsx';
 import About from './components/About.jsx';
 import Product from './components/Product.jsx';
 import Contact from './components/Contact.jsx';
 import Details from './components/Details.jsx';
+import Navbar from './components/navbar.jsx';
 
 const App = () => {
   return (
-    <div>
+    <div className="">
       <BrowserRouter>
         <Navbar />
         <Routes>
